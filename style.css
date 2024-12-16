@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background: url("https://t4.ftcdn.net/jpg/03/86/82/73/360_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+p{
+    display: inline;
+}
+.container{
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    border-bottom: auto;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 25px;
+    box-shadow: rgb(0, 0, 0,0.2);
+    backdrop-filter: blur(15px);
+    font-weight: 100;
+}
+h1{
+    margin: 20px;
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.input{
+    width: 300px;
+    height: 35px;
+    color: white;
+    border-radius: 20px;
+    border:1px solid white;
+    margin-bottom: 20px;
+    background-color: transparent;
+    text-indent: 10px;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.482);
+}
+
+.links{
+    margin-left: 60px;
+}
+
+button{
+    width: 300px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 20px;
+    border: white;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+#checkbox:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    body{
+        background-size: cover 100%;
+    }
+}
